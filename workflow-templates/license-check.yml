@@ -1,0 +1,27 @@
+name: License check
+
+on:
+  pull_request:
+    branches: [ $default-branch ]
+  push:
+    branches: [ $default-branch ]
+
+permissions:
+  contents: read
+
+jobs:
+  license:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify proprietary license is present
+        run: |
+          if [ ! -f LICENSE.md ] && [ ! -f LICENSE ]; then
+            echo "::error::Missing LICENSE.md. Copy it from sunshine-realty-brokerage-inc/.github."
+            exit 1
+          fi
+          if ! grep -qi "Sunshine Realty Brokerage Inc" LICENSE.md LICENSE 2>/dev/null; then
+            echo "::error::The license file must name Sunshine Realty Brokerage Inc. as the owner."
+            exit 1
+          fi
+          echo "License OK"

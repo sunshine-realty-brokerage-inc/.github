@@ -1,0 +1,6 @@
+{
+  "name": "Sunshine Realty license check",
+  "description": "Fails the build if the repository is missing the Sunshine Realty Brokerage Inc. proprietary license.",
+  "iconName": "octicon shield-lock",
+  "categories": ["Security"]
+}

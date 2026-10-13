@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/sunshine-realty-brokerage-inc/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. Follow the private reporting process in the Security Policy.
+  - name: Sunshine Realty Brokerage Inc.
+    url: https://sunshinerealtybrokerage.ca
+    about: General and business inquiries.

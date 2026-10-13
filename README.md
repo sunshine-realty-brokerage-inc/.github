@@ -1,4 +1,4 @@
-# .github — Sunshine Realty Brokerage Inc.
+# Sunshine Realty Brokerage Inc.
 
 This is the organization-wide configuration repository for the
 **sunshine-realty-brokerage-inc** GitHub organization.
@@ -7,11 +7,21 @@ This is the organization-wide configuration repository for the
 
 ## What This Repository Contains
 
-| Path                | Purpose                                                              |
-| ------------------- | -------------------------------------------------------------------- |
-| `profile/README.md` | The public profile shown on the organization's GitHub page.          |
-| `LICENSE.md`        | The proprietary license that covers all Materials in the organization. |
-| `README.md`         | This file: how the organization is set up and governed.              |
+| Path                                     | Purpose                                                                 |
+| ---------------------------------------- | ----------------------------------------------------------------------- |
+| `profile/README.md`                      | Public profile shown on the organization's GitHub page                  |
+| `LICENSE.md`                             | Proprietary license covering all Materials in the organization          |
+| `SECURITY.md`                            | How to report vulnerabilities and leaked secrets privately              |
+| `CODE_OF_CONDUCT.md`                     | Expected professional conduct and how it is enforced                    |
+| `CONTRIBUTING.md`                        | Branching, commit, pull request, and confidentiality rules              |
+| `SUPPORT.md`                             | Where to get help                                                       |
+| `GOVERNANCE.md`                          | Roles, teams, and the access and repository lifecycle                   |
+| `.github/ISSUE_TEMPLATE/`                | Default bug report and feature request forms                            |
+| `.github/PULL_REQUEST_TEMPLATE.md`       | Default pull request checklist                                          |
+| `.github/CODEOWNERS`                     | Requires admin approval for changes to this repository                  |
+| `.github/dependabot.yml`                 | Keeps this repository's GitHub Actions up to date                       |
+| `workflow-templates/`                    | Starter workflows offered to every repository (license check)           |
+| `README.md`                              | This file: how the organization is set up and governed                  |
 
 Community health files placed here, such as `SECURITY.md`, `CODE_OF_CONDUCT.md`,
 `CONTRIBUTING.md`, issue templates, and pull request templates, become the default for
